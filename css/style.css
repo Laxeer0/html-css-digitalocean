@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "SailecLight";
+    src: url("../fonts/SailecLight.woff") format('woff');
+}
+@font-face {
+    font-family: "SailecLightItalic";
+    src: url("../fonts/SailecLightItalic.woff") format('woff');
+    font-style: italic;
+}@font-face {
+    font-family: "SailecMedium";
+    src: url("../fonts/SailecMedium.woff") format('woff');
+    font-weight: bold;
+}@font-face {
+    font-family: "SailecRegular";
+    src: url("../fonts/SailecRegular.woff") format('woff');
+}
+@font-face {
+    font-family: "SailecBold";
+    src: url("../fonts/SailecBold.woff") format('woff');
+    font-style:normal;
+}
+
+
+body{
+  font-family:"SailecLight";
+}
+
+.navbar-logo img{
+  width:150px;
+}
+
+.navbav-color-white{
+  background-color:white;
+}
+
+.btn-outline-blue{
+  color:#0069FE;
+  border: 1px solid #0069FE;
+}
